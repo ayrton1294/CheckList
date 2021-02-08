@@ -1,12 +1,11 @@
 html,
+button,
 body {
 	margin: 0;
 	padding: 0;
 }
 
 button {
-	margin: 0;
-	padding: 0;
 	border: 0;
 	background: none;
 	font-size: 100%;
@@ -17,11 +16,15 @@ button {
 	-webkit-appearance: none;
 	appearance: none;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+}
+
+body,
+button {
+    -moz-osx-font-smoothing: grayscale
 }
 
 body {
-	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font: 14px Helvetica Neue, Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
 	background: #f5f5f5;
 	color: #111111;
