@@ -16,6 +16,10 @@ console.log(todoList.todos);
 
 todoList.todos.forEach(todo => crearTodoHtml(todo));
 
+// const newTodo = new Todo('Aprender JavaScript');
+// newTodo.imprimirClase();
+
+console.log('Todos', todoList.todos)
 
 // console.log(todoList);
 
