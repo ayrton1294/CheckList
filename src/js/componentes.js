@@ -54,6 +54,9 @@ divTodoList.addEventListener('click', (event)=>{
     if (nombreElemento.includes('input')) { // Click en el check
         todoList.marcarCompletado(todoId);
         todoElemento.classList.toggle('completed');
+    } else if(nombreElemento.includes('button')){ // hay que borar el todo
+        todoList.eliminarTodo(todoId);
+        divTodoList.removeChild(todoElemento);
     }
 
 });
